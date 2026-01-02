@@ -178,7 +178,7 @@ class Subplot:
                 line = self.ax.plot(
                     subxi[:-5],
                     subyi[:-5],
-                    linestyle="-",
+                    linestyle=":",
                     color=color,
                     linewidth=2,
                     solid_capstyle="butt",
